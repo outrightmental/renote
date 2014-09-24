@@ -29,7 +29,7 @@ Install from the command line:
 
 ## Usage
 
-Because Renote is built on the extraordinarily nifty (Thor)[https://github.com/erikhuda/thor], you can simply run the CLI with no arguments to display the most up-to-date usage information.
+Because Renote is built on the extraordinarily nifty [Thor](https://github.com/erikhuda/thor), you can simply run the CLI with no arguments to display the most up-to-date usage information.
 
     $ renote
 

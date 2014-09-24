@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'renote'
+
+Renote::Cli::Application.start(ARGV)

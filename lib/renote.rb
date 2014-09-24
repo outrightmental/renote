@@ -1,5 +1,2 @@
 require "renote/version"
-
-module Renote
-  p "Renote."
-end
+require "renote/cli/application"

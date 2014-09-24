@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Nick Kaye"]
   spec.email         = ["nick.c.kaye@gmail.com"]
   spec.summary       = %q{Renote is a CLI for discreet note-taking.}
-  spec.description   = %q{Use Renote in order to take notes under adverse circumstances.}
+  spec.description   = %q{Use Renote in order to take notes discreetly.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_dependency 'thor', '~> 0.19'
 end

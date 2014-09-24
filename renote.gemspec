@@ -10,8 +10,7 @@ Gem::Specification.new do |s|
   s.email         = ['nick.c.kaye@gmail.com']
   s.summary       = %q{Renote is a CLI for discreet note-taking.}
   s.description   = %q{Use Renote in order to take notes discreetly.}
-  s.homepage      = ''
-  s.metadata      = { 'source_code' => "https://github.com/outrightmental/renote" }
+  s.homepage      = 'https://github.com/outrightmental/renote'
   s.license       = 'MIT'
 
   s.files         = `git ls-files -z`.split("\x0")

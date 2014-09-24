@@ -15,7 +15,7 @@ Renote
 
 Description
 -----------
-Renote is a CLI for discreet note-taking. Use Renote in order to take notes discreetly.
+Renote is a CLI for note-taking.
 
 Installation
 ------------

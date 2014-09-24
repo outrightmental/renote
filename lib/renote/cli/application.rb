@@ -4,9 +4,10 @@ module Renote
   module Cli
     class Application < Thor
 
-      desc 'hello NAME', 'Display greeting with given NAME'
-      def hello(name)
-        puts "Hello #{name}"
+      desc 'thru INFILE OUTFILE', 'Pass-through note taking records keyboard input to <OUTFILE> while synchronously displaying contents of <INFILE>.'
+      def thru(infile,outfile)
+        puts "IN #{infile}"
+        puts "OUT #{outfile}"
       end
 
     end

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Renote::VERSION
   spec.authors       = ["Nick Kaye"]
   spec.email         = ["nick.c.kaye@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Renote is a CLI for discreet note-taking.}
+  spec.description   = %q{Use Renote in order to take notes under adverse circumstances.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

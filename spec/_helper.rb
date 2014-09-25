@@ -1,5 +1,5 @@
-require 'renote/cli/application'
-require 'yaml'
+require 'require_all'
+require_all 'lib'
 
 # Coveralls
 require 'coveralls'

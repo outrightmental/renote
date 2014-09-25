@@ -4,10 +4,10 @@ module Renote
   module Cli
     class Application < Thor
 
-      desc 'thru INFILE OUTFILE', 'Pass-through note taking records keyboard input to <OUTFILE> while synchronously displaying contents of <INFILE>.'
-      def thru(infile,outfile)
-        puts "IN #{infile}"
-        puts "OUT #{outfile}"
+      desc 'into <FILE>', 'Shell appends keyboard input to <FILE> until ESCAPE key is pressed.'
+      def into(target_file_path)
+        @shell = new Renote::Fsm::Shell
+        @shell.trigger(:load, target_file_path)
       end
 
     end

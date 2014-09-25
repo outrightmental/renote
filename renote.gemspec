@@ -4,12 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'renote/version'
 
 Gem::Specification.new do |s|
+
   s.name          = 'renote'
   s.version       = Renote::VERSION
   s.authors       = ['Nick Kaye']
   s.email         = ['nick.c.kaye@gmail.com']
-  s.summary       = %q{Renote is a CLI for discreet note-taking.}
-  s.description   = %q{Use Renote in order to take notes discreetly.}
+  s.summary       = %q{Renote is a CLI for note-taking.}
+  s.description   = %q{Use Renote to append keyboard input to a file, until ESCAPE is pressed.}
   s.homepage      = 'https://github.com/outrightmental/renote'
   s.license       = 'MIT'
 
@@ -22,5 +23,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake', '~> 10.0'
   s.add_development_dependency 'coveralls', '~> 0.7'
   s.add_development_dependency 'rspec', '~> 3.1'
+
+  s.add_dependency 'state_machine', '~> 1.2'
   s.add_dependency 'thor', '~> 0.19'
+
 end

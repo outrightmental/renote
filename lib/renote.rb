@@ -1,5 +1,5 @@
 require 'require_all'
-require_all 'renote'
+require_all File.expand_path('../../lib', __FILE__)
 
 module Renote
   module Cli

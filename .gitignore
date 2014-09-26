@@ -15,4 +15,5 @@ mkmf.log
 
 # IntelliJ IDEA
 /.idea/
+.rakeTasks
 *.iml

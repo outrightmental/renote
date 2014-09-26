@@ -3,7 +3,6 @@ require_all 'lib'
 
 module Renote
   module Cli
-    puts ''
 =begin
     puts '                   _         '
     puts '   ___ ___ ___ ___| |_ ___   '

@@ -1,5 +1,11 @@
 #!/usr/bin/env ruby
 
+begin
+  require 'rubygems'
+  gem 'renote'
+rescue LoadError
+end
+
 require 'renote'
 
 Renote::Cli::Application.start(ARGV)

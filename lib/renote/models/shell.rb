@@ -63,9 +63,10 @@ module Renote
       def handle_input(c)
         if c=="\e"
           finish!
+        else
+          @output_file.putc c
+          putc '.'
         end
-        @output_file.putc c
-        putc '.'
       end
 
       # read a character without pressing enter and without printing to the screen

@@ -28,4 +28,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'state_machine', '~> 1.2'
   s.add_dependency 'thor', '~> 0.19'
 
+  spec.required_ruby_version = '>= 1.9.3'
+
 end

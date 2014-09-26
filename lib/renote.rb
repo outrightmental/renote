@@ -1,5 +1,5 @@
-require 'renote/cli/application'
-require 'renote/models/shell'
+require 'require_all'
+require_all 'lib'
 
 module Renote
   module Cli

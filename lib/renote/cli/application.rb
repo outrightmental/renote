@@ -6,8 +6,8 @@ module Renote
 
       desc 'into <FILE>', 'Shell appends keyboard input to <FILE> until ESCAPE key is pressed.'
       def into(target_file_path)
-        @shell = new Renote::Fsm::Shell
-        @shell.trigger(:load, target_file_path)
+        @shell = Renote::Model::Shell.new
+        @shell.trigger!(:start, target_file_path)
       end
 
     end
